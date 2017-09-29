@@ -5,7 +5,7 @@
 body {
   background: #b3dbe8;
   color: #000;
-  font-family: sans-serif; /*   add fonts   */
+  font-family: 'Quicksand', arial, sans-serif; /*   add fonts   */
 }
 
 
@@ -47,7 +47,7 @@ aside {
 
 h1, h2 {
   margin: 0;
-  font-family: serif; /*   add fonts   */
+  font-family: 'Manuale', georgia, serif; /*   add fonts   */
 }
 
 article h1 {
@@ -115,3 +115,11 @@ aside a:hover {
 
 
 /* put your media queries below */
+@media (max-width: 600px) {
+  #container {margin:0;}
+  article {width:100%;}
+  aside {width:100%; margin:0;}
+  #sidebar2 {margin-top:0%;}
+  #top-image-container {display: none;}
+
+}
